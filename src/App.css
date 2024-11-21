@@ -1,0 +1,59 @@
+body{
+  background-color: rgb(12, 94, 142);
+}
+h1{
+  text-align: center;
+}
+.input_Container
+{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+ 
+
+}
+.input_Container >input
+{
+  width: 300px;
+  height: 30px;
+  font-size :medium ;
+}
+.input_Container >button
+{
+  width: 30px;
+  height: 30px;
+  font: size 1.5em;;
+  border-radius: 10px;
+  margin-top: 10px;
+ background-color: rgb(29, 158, 48);
+}
+.Container
+{
+  margin-top: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: medium;
+  gap: 5px;
+
+}
+.ToDo{
+  width: 500px;
+  display: flex;
+  border-radius: 10px;
+  justify-content: space-between;
+  padding: 0px 5px;
+  background-color: aliceblue;
+  align-items: center;
+}
+.action >button
+{
+  background-color: red;
+  color: #fffefe;
+  height: 30px;
+  width:75px ;
+  border-radius: 10px;
+font-size: medium;
+margin-left: 10px;
+}
+
